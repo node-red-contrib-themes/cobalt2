@@ -1,0 +1,26 @@
+/*
+* Node-RED Dashboard
+*/
+.nr-db-sb-group-list li {
+  border-bottom-color: var(--red-ui-secondary-background) !important;
+}
+
+.nr-db-sb-list-handle {
+  color: var(--red-ui-primary-text-color) !important;
+}
+
+.nr-db-sb-list-header,
+.nr-db-sb-tab-list-item {
+  color: var(--red-ui-primary-text-color) !important;
+}
+
+.nr-db-sb-list-header:hover,
+.nr-db-sb-group-list-header:hover,
+.nr-db-sb-widget-list-header:hover {
+  background-color: var(--red-ui-primary-background) !important;
+  color: var(--red-ui-primary-text-color) !important;
+}
+
+.nr-db-sb-tab-list-header {
+  background-color: var(--red-ui-secondary-background) !important;
+}
