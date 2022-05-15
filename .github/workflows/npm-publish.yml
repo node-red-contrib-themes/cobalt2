@@ -1,0 +1,14 @@
+---
+name: "NPM Publish"
+
+on:
+  release:
+    types:
+      - published
+  workflow_dispatch:
+
+jobs:
+  workflows:
+    uses: node-red-contrib-themes/workflows/.github/workflows/npm-publish.yml@master
+    secrets:
+      NPM_TOKEN: ${{ secrets[format('{0}_NPM_TOKEN', github.actor)] }}
